@@ -87,16 +87,16 @@ body {
 }
 
 .main { 
-    background: white; 
+    background: rgb(205, 205, 205); 
     padding: 50px; 
-    border-radius: 12px; 
+    border-radius: 8px; 
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
 }
 
 .aside { 
     background: #5a5b5c; 
-    padding: 20px; 
-    border-radius: 12px; 
+    padding: 8px; 
+    border-radius: 8px; 
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     width: fit-content;
     height: fit-content;
