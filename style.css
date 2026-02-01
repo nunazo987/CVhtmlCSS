@@ -80,7 +80,7 @@ body {
 
 .content {
     max-width: 1100px;
-    margin: 260px auto 0 auto; /* ⬅ ajustado para compensar o header fixo */
+    margin: 260px auto 0 auto;
     display: grid; 
     grid-template-columns: 2fr 1fr; 
     gap: 35px;
@@ -95,9 +95,13 @@ body {
 
 .aside { 
     background: #5a5b5c; 
-    padding: 35px; 
+    padding: 20px; 
     border-radius: 12px; 
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    width: fit-content;
+    height: fit-content;
+    top: 200px;
+    position: sticky;
 }
 
 .aside table td {
@@ -117,7 +121,7 @@ body {
     background: #333; 
     color: white; 
     padding: 18px 25px; 
-    margin: 0 0 15px 0; /* ⬅ remove margin-top, só margin-bottom */
+    margin: 0 0 15px 0; 
     border-radius: 8px;
     font-size: 1.25em;
 }
